@@ -1,0 +1,29 @@
+┌──────────────────────────────────────┬────────┬─────────┬────────────────────────────────────────────────────────────┐
+│                 NAME                 │ POINTS │ AWARDED │                           NOTES                            │
+├──────────────────────────────────────┼────────┼─────────┼────────────────────────────────────────────────────────────┤
+│ Create users table                   │   5.00 │    5.00 │                                                            │
+│ /register endpoint                   │  20.00 │   20.00 │                                                            │
+│ Private Keys are encrypted in the    │  25.00 │   25.00 │                                                            │
+│ database                             │        │         │                                                            │
+│ Create auth_logs table               │   5.00 │    5.00 │                                                            │
+│ /auth requests are logged            │  10.00 │   10.00 │                                                            │
+│ /auth is rate-limited (optional)     │  25.00 │   25.00 │                                                            │
+│ Quality                              │   5.00 │    4.25 │ The code is generally well-organized with clear            │
+│                                      │        │         │ separation of concerns, but could benefit from improved    │
+│                                      │        │         │ modularization, especially in the main.py file where       │
+│                                      │        │         │ functions are somewhat lengthy.                            │
+│                                      │        │         │ Best practices are mostly adhered to, but there are areas  │
+│                                      │        │         │ for improvement such as consistent error handling and      │
+│                                      │        │         │ validation.                                                │
+│                                      │        │         │ Readability is good, but documentation could be enhanced   │
+│                                      │        │         │ with more detailed docstrings, especially for public       │
+│                                      │        │         │ functions.                                                 │
+│                                      │        │         │ Overall, the code quality is solid, but the authentication │
+│                                      │        │         │ and rate limiting implementation could be more robust,     │
+│                                      │        │         │ particularly in handling edge cases and ensuring security  │
+│                                      │        │         │ best practices are followed.                               │
+├──────────────────────────────────────┼────────┼─────────┼────────────────────────────────────────────────────────────┤
+│ e81d13f5-4bbe-453b-a55b-c23876450f6f │ Grade: │  99.21% │                                                            │
+└──────────────────────────────────────┴────────┴─────────┴────────────────────────────────────────────────────────────┘
+
+Submit results to server? (y/n): time=2026-11-11T16:24:29.790-06:00 level=WARN msg="Failed to read user input" buildID=SPRING2026 version=1.1.2 error=EOF

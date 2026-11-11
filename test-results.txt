@@ -1,0 +1,11 @@
+.......................................                                  [100%]
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.11.1-final-0 _______________
+
+Name      Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------
+main.py     216      1     46      1    99%   377
+-----------------------------------------------------
+TOTAL       216      1     46      1    99%
+Coverage HTML written to dir htmlcov
+39 passed in 22.76s
